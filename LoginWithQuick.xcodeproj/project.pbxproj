@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030DB8A420D30FDE00EE7E87 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030DB8A320D30FDE00EE7E87 /* LoginManager.swift */; };
+		037966FE20D30AD4006B5FA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037966FD20D30AD4006B5FA2 /* AppDelegate.swift */; };
+		0379670020D30AD4006B5FA2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037966FF20D30AD4006B5FA2 /* LoginViewController.swift */; };
+		0379670320D30AD4006B5FA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0379670120D30AD4006B5FA2 /* Main.storyboard */; };
+		0379670520D30AD4006B5FA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0379670420D30AD4006B5FA2 /* Assets.xcassets */; };
+		0379670820D30AD4006B5FA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0379670620D30AD4006B5FA2 /* LaunchScreen.storyboard */; };
+		0379671320D30AD4006B5FA2 /* LoginWithQuickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379671220D30AD4006B5FA2 /* LoginWithQuickTests.swift */; };
+		0379671E20D30C1F006B5FA2 /* LoginQuick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379671D20D30C1F006B5FA2 /* LoginQuick.swift */; };
+		0379672020D30F2D006B5FA2 /* LoginViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379671F20D30F2D006B5FA2 /* LoginViewProtocol.swift */; };
+		547FBF682A53A4FB40356780 /* Pods_LoginWithQuickTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E5E322D4E604FFA71B793E /* Pods_LoginWithQuickTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0379670F20D30AD4006B5FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 037966F220D30AD4006B5FA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 037966F920D30AD4006B5FA2;
+			remoteInfo = LoginWithQuick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030DB8A320D30FDE00EE7E87 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		037966FA20D30AD4006B5FA2 /* LoginWithQuick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginWithQuick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		037966FD20D30AD4006B5FA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		037966FF20D30AD4006B5FA2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0379670220D30AD4006B5FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0379670420D30AD4006B5FA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0379670720D30AD4006B5FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0379670920D30AD4006B5FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0379670E20D30AD4006B5FA2 /* LoginWithQuickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginWithQuickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0379671220D30AD4006B5FA2 /* LoginWithQuickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithQuickTests.swift; sourceTree = "<group>"; };
+		0379671420D30AD4006B5FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0379671D20D30C1F006B5FA2 /* LoginQuick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginQuick.swift; sourceTree = "<group>"; };
+		0379671F20D30F2D006B5FA2 /* LoginViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewProtocol.swift; sourceTree = "<group>"; };
+		6578652F28A020EF10EFBD89 /* Pods-LoginWithQuickTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginWithQuickTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoginWithQuickTests/Pods-LoginWithQuickTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E0DA1A3C235A0C6AEF4A65A /* Pods-LoginWithQuickTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginWithQuickTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoginWithQuickTests/Pods-LoginWithQuickTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7E5E322D4E604FFA71B793E /* Pods_LoginWithQuickTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginWithQuickTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		037966F720D30AD4006B5FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0379670B20D30AD4006B5FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547FBF682A53A4FB40356780 /* Pods_LoginWithQuickTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037966F120D30AD4006B5FA2 = {
+			isa = PBXGroup;
+			children = (
+				037966FC20D30AD4006B5FA2 /* LoginWithQuick */,
+				0379671120D30AD4006B5FA2 /* LoginWithQuickTests */,
+				037966FB20D30AD4006B5FA2 /* Products */,
+				06D0E09516D2698085A5B212 /* Pods */,
+				55F4D6588E4D651CCEBD8B57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		037966FB20D30AD4006B5FA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				037966FA20D30AD4006B5FA2 /* LoginWithQuick.app */,
+				0379670E20D30AD4006B5FA2 /* LoginWithQuickTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		037966FC20D30AD4006B5FA2 /* LoginWithQuick */ = {
+			isa = PBXGroup;
+			children = (
+				037966FD20D30AD4006B5FA2 /* AppDelegate.swift */,
+				030DB8A320D30FDE00EE7E87 /* LoginManager.swift */,
+				037966FF20D30AD4006B5FA2 /* LoginViewController.swift */,
+				0379671F20D30F2D006B5FA2 /* LoginViewProtocol.swift */,
+				0379670120D30AD4006B5FA2 /* Main.storyboard */,
+				0379670420D30AD4006B5FA2 /* Assets.xcassets */,
+				0379670620D30AD4006B5FA2 /* LaunchScreen.storyboard */,
+				0379670920D30AD4006B5FA2 /* Info.plist */,
+			);
+			path = LoginWithQuick;
+			sourceTree = "<group>";
+		};
+		0379671120D30AD4006B5FA2 /* LoginWithQuickTests */ = {
+			isa = PBXGroup;
+			children = (
+				0379671220D30AD4006B5FA2 /* LoginWithQuickTests.swift */,
+				0379671D20D30C1F006B5FA2 /* LoginQuick.swift */,
+				0379671420D30AD4006B5FA2 /* Info.plist */,
+			);
+			path = LoginWithQuickTests;
+			sourceTree = "<group>";
+		};
+		06D0E09516D2698085A5B212 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6578652F28A020EF10EFBD89 /* Pods-LoginWithQuickTests.debug.xcconfig */,
+				9E0DA1A3C235A0C6AEF4A65A /* Pods-LoginWithQuickTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55F4D6588E4D651CCEBD8B57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7E5E322D4E604FFA71B793E /* Pods_LoginWithQuickTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		037966F920D30AD4006B5FA2 /* LoginWithQuick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0379671720D30AD4006B5FA2 /* Build configuration list for PBXNativeTarget "LoginWithQuick" */;
+			buildPhases = (
+				037966F620D30AD4006B5FA2 /* Sources */,
+				037966F720D30AD4006B5FA2 /* Frameworks */,
+				037966F820D30AD4006B5FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginWithQuick;
+			productName = LoginWithQuick;
+			productReference = 037966FA20D30AD4006B5FA2 /* LoginWithQuick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0379670D20D30AD4006B5FA2 /* LoginWithQuickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0379671A20D30AD4006B5FA2 /* Build configuration list for PBXNativeTarget "LoginWithQuickTests" */;
+			buildPhases = (
+				6CC55C63848A2E341AF88A40 /* [CP] Check Pods Manifest.lock */,
+				0379670A20D30AD4006B5FA2 /* Sources */,
+				0379670B20D30AD4006B5FA2 /* Frameworks */,
+				0379670C20D30AD4006B5FA2 /* Resources */,
+				01246B6F4870E2839131BB03 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0379671020D30AD4006B5FA2 /* PBXTargetDependency */,
+			);
+			name = LoginWithQuickTests;
+			productName = LoginWithQuickTests;
+			productReference = 0379670E20D30AD4006B5FA2 /* LoginWithQuickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		037966F220D30AD4006B5FA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Thufik;
+				TargetAttributes = {
+					037966F920D30AD4006B5FA2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0379670D20D30AD4006B5FA2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 037966F920D30AD4006B5FA2;
+					};
+				};
+			};
+			buildConfigurationList = 037966F520D30AD4006B5FA2 /* Build configuration list for PBXProject "LoginWithQuick" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 037966F120D30AD4006B5FA2;
+			productRefGroup = 037966FB20D30AD4006B5FA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				037966F920D30AD4006B5FA2 /* LoginWithQuick */,
+				0379670D20D30AD4006B5FA2 /* LoginWithQuickTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		037966F820D30AD4006B5FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0379670820D30AD4006B5FA2 /* LaunchScreen.storyboard in Resources */,
+				0379670520D30AD4006B5FA2 /* Assets.xcassets in Resources */,
+				0379670320D30AD4006B5FA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0379670C20D30AD4006B5FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01246B6F4870E2839131BB03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LoginWithQuickTests/Pods-LoginWithQuickTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginWithQuickTests/Pods-LoginWithQuickTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CC55C63848A2E341AF88A40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginWithQuickTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		037966F620D30AD4006B5FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0379670020D30AD4006B5FA2 /* LoginViewController.swift in Sources */,
+				030DB8A420D30FDE00EE7E87 /* LoginManager.swift in Sources */,
+				0379672020D30F2D006B5FA2 /* LoginViewProtocol.swift in Sources */,
+				037966FE20D30AD4006B5FA2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0379670A20D30AD4006B5FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0379671320D30AD4006B5FA2 /* LoginWithQuickTests.swift in Sources */,
+				0379671E20D30C1F006B5FA2 /* LoginQuick.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0379671020D30AD4006B5FA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 037966F920D30AD4006B5FA2 /* LoginWithQuick */;
+			targetProxy = 0379670F20D30AD4006B5FA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0379670120D30AD4006B5FA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0379670220D30AD4006B5FA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0379670620D30AD4006B5FA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0379670720D30AD4006B5FA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0379671520D30AD4006B5FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0379671620D30AD4006B5FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0379671820D30AD4006B5FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T9344DJMW;
+				INFOPLIST_FILE = LoginWithQuick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Thufik.LoginWithQuick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0379671920D30AD4006B5FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T9344DJMW;
+				INFOPLIST_FILE = LoginWithQuick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Thufik.LoginWithQuick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0379671B20D30AD4006B5FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6578652F28A020EF10EFBD89 /* Pods-LoginWithQuickTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T9344DJMW;
+				INFOPLIST_FILE = LoginWithQuickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Thufik.LoginWithQuickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginWithQuick.app/LoginWithQuick";
+			};
+			name = Debug;
+		};
+		0379671C20D30AD4006B5FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E0DA1A3C235A0C6AEF4A65A /* Pods-LoginWithQuickTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T9344DJMW;
+				INFOPLIST_FILE = LoginWithQuickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Thufik.LoginWithQuickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginWithQuick.app/LoginWithQuick";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		037966F520D30AD4006B5FA2 /* Build configuration list for PBXProject "LoginWithQuick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0379671520D30AD4006B5FA2 /* Debug */,
+				0379671620D30AD4006B5FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0379671720D30AD4006B5FA2 /* Build configuration list for PBXNativeTarget "LoginWithQuick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0379671820D30AD4006B5FA2 /* Debug */,
+				0379671920D30AD4006B5FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0379671A20D30AD4006B5FA2 /* Build configuration list for PBXNativeTarget "LoginWithQuickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0379671B20D30AD4006B5FA2 /* Debug */,
+				0379671C20D30AD4006B5FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 037966F220D30AD4006B5FA2 /* Project object */;
+}
